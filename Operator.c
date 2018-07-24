@@ -1,12 +1,10 @@
 #include<stdio.h>
-int main()
-{
+int main(){
     char a[100];
     int c[6]={0},i;
     printf("Enter an equation:\n");
     gets(a);    
-    for(i=0;i<100;i++)
-    {
+    for(i=0;i<100;i++){
         if(a[i]=='+'){c[0]++;}
         if(a[i]=='-'){c[1]++;}
         if(a[i]=='/'){c[2]++;}
